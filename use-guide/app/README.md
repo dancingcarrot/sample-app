@@ -9,9 +9,9 @@
    * [1.2.2 Redis-follower 생성 ](#1-2-2)
    * [1.2.2.1 Redis-follower deployment 생성 ](#1-2-2-1)
    * [1.2.2.2 Redis-follower service 생성 ](#1-2-2-2)
-   * [1.3. 방명록 프론트엔드 생성](#1.3)
-   * [1.3.1. frontend deployment 생성](#1.3.1)
-   * [1.3.1. frontend service 생성](#1.3.2)
+   * [1.3. 방명록 프론트엔드 생성](#1-3)
+   * [1.3.1. frontend deployment 생성](#1-3-1)
+   * [1.3.1. frontend service 생성](#1-3-2)
      
 
 <br>
@@ -140,7 +140,13 @@
 - 화면에서 서비스가 등록된 것을 확인한다.
   ![IMG_3_6]
 
+## <div id='1-4'/> 1.4. 확인하기
 
+- 노드의 ip를 확인한다.
+- frontedn-service 의 nodeport ip를 확인한다.
+- 브라우저에 노드ip:nodeport ip 를 작성한다.
+- 동일한 화면이 나타나는지 확인한다.
+  ![IMG_last]
 
 ---
 [IMG_1_1]:../IMG/IMG_1_1.png
@@ -167,3 +173,4 @@
 [IMG_3_4]:../IMG/IMG_3_4.png
 [IMG_3_5]:../IMG/IMG_3_5.png
 [IMG_3_6]:../IMG/IMG_3_6.png
+[IMG_last]:../IMG/IMG_last.png
