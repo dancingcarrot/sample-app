@@ -43,7 +43,7 @@
 <br>
 
 ## <div id='1-2'/> 1.2. Redis 생성
-#### <div id='1-1-1'/> 1.1.1. Redis deployment 생성
+#### <div id='1-2-1'/> 1.2.1. Redis deployment 생성
 
 - Workloads 메뉴의 Deployment 클릭한 후 상단의 ALL을 선택하고 생성한 Namespace명을 선택한다.
   ![IMG_2_1]
@@ -61,7 +61,7 @@
 
 <br>
 
-#### <div id='1-1-2'/> 1.1.2. Redis service 생성
+#### <div id='1-2-2'/> 1.2.2. Redis service 생성
 - Services 메뉴의 Services를 클릭한 후 생성 버튼을 누른다.
   ![IMG_2_5]
 
