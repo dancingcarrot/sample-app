@@ -9,6 +9,9 @@
    * [1.2.2 Redis-follower 생성 ](#1-2-2)
    * [1.2.2.1 Redis-follower deployment 생성 ](#1-2-2-1)
    * [1.2.2.2 Redis-follower service 생성 ](#1-2-2-2)
+   * [1.3. 방명록 프론트엔드 생성](#1.3)
+   * [1.3.1. frontend deployment 생성](#1.3.1)
+   * [1.3.1. frontend service 생성](#1.3.2)
      
 
 <br>
