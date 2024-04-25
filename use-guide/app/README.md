@@ -43,7 +43,8 @@
 <br>
 
 ## <div id='1-2'/> 1.2. Redis 생성
-#### <div id='1-2-1'/> 1.2.1. Redis deployment 생성
+### <div id='1-2-1'/> 1.2.1. Redis-leader 생성
+#### <div id='1-2-1-1'/> 1.2.1.1. Redis-leader deployment 생성
 
 - Workloads 메뉴의 Deployment 클릭한 후 상단의 ALL을 선택하고 생성한 Namespace명을 선택한다.
   ![IMG_2_1]
@@ -61,7 +62,7 @@
 
 <br>
 
-#### <div id='1-2-2'/> 1.2.2. Redis service 생성
+#### <div id='1-2-1-2'/> 1.2.1.2. Redis service 생성
 - Services 메뉴의 Services를 클릭한 후 생성 버튼을 누른다.
   ![IMG_2_5]
 
@@ -70,8 +71,11 @@
 - Yaml 작성 박스에 Redis service yaml을 작성한 후 저장 버튼을 누른다.
   ![IMG_2_6]
 
-- 생성한 서비스가 올라갔는지 확인한다.
+- 생성한 서비스가 잘 올라갔는지 확인한다.
   ![IMG_2_7]
+
+### <div id='1-2-2'/> 1.2.2. Redis-follower 생성
+#### <div id='1-2-2-1'/> 1.2.2.1. Redis-leader deployment 생성
 
 ---
 [IMG_1_1]:../IMG/IMG_1_1.png
