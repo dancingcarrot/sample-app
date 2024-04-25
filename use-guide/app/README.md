@@ -14,4 +14,8 @@
 ### <div id='1-1-1'/> 1.1.1. Overview
 #### <div id='1-1-1-1'/> 1.1.1.1. Namespace 생성
 - Clusters 메뉴의 Namespaces 클릭하여 Namespace 목록 페이지로 이동한다.
+  ![IMG_1_1]
+
+---
+[IMG_1_1]:../IMG/IMG_1_1.png
   
