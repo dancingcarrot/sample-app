@@ -1,6 +1,6 @@
 ## Table of Contents
 
-1. [Redis deployment 생성] (#1)
+1. [Redis를 사용한 PHP 방명록 애플리케이션 배포하기] (#1)
    * [1.1 Namespace 생성 ](#1-1)
    * [1.2 Redis 생성 ](#1-2)
    * [1.2.1 Redis-leader 생성 ](#1-2-1)
@@ -9,6 +9,7 @@
    * [1.2.2 Redis-follower 생성 ](#1-2-2)
    * [1.2.2.1 Redis-follower deployment 생성 ](#1-2-2-1)
    * [1.2.2.2 Redis-follower service 생성 ](#1-2-2-2)
+     
 
 <br>
 
@@ -135,6 +136,9 @@
 
 - 화면에서 서비스가 등록된 것을 확인한다.
   ![IMG_3_6]
+
+
+
 ---
 [IMG_1_1]:../IMG/IMG_1_1.png
 [IMG_1_2]:../IMG/IMG_1_2.png
