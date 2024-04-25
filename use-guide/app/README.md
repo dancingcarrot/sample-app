@@ -2,7 +2,9 @@
 
 1. [Redis deployment 생성] (#1)
    * [1.1 Namespace 생성 ](#1-1)
-   * [1.1 Redis deployment 생성 ](#1-2)
+   * [1.2 Redis 생성 ](#1-2)
+   * [1.2.1 Redis deployment 생성](#1-2-1)
+   * [1.2.2 Redis service 생성](#1-2-1)
 <br>
 
 # <div id='1'/> 1. Redis를 사용한 PHP 방명록 애플리케이션 배포하기
@@ -40,9 +42,36 @@
 
 <br>
 
-## <div id='1-2'/> 1.2. Redis deployment 생성
+## <div id='1-2'/> 1.2. Redis 생성
 #### <div id='1-1-1'/> 1.1.1. Redis deployment 생성
 
+- Workloads 메뉴의 Deployment 클릭한 후 상단의 ALL을 선택하고 생성한 Namespace명을 선택한다.
+  ![IMG_2_1]
+  ![IMG_2_2]
+
+<br>
+
+- 생성 화면을 누른 후 Yaml 작성박스에 Redis deployment를 생성하는 yaml을 작성하고 저장 버튼을 누른다.
+  ![IMG_2_3]
+
+<br>
+
+- Redis deployment가 생성되었는지 확인한다.
+  ![IMG_2_4]
+
+<br>
+
+#### <div id='1-1-2'/> 1.1.2. Redis service 생성
+- Services 메뉴의 Services를 클릭한 후 생성 버튼을 누른다.
+  ![IMG_2_5]
+
+<br>
+
+- Yaml 작성 박스에 Redis service yaml을 작성한 후 저장 버튼을 누른다.
+  ![IMG_2_6]
+
+- 생성한 서비스가 올라갔는지 확인한다.
+  ![IMG_2_7]
 
 ---
 [IMG_1_1]:../IMG/IMG_1_1.png
@@ -50,4 +79,11 @@
 [IMG_1_3]:../IMG/IMG_1_3.png
 [IMG_1_4]:../IMG/IMG_1_4.png  
 [IMG_1_5]:../IMG/IMG_1_5.png  
-[IMG_1_6]:../IMG/IMG_1_6.png  
+[IMG_1_6]:../IMG/IMG_1_6.png
+[IMG_2_1]:../IMG/IMG_2_1.png
+[IMG_2_2]:../IMG/IMG_2_2.png
+[IMG_2_3]:../IMG/IMG_2_3.png
+[IMG_2_4]:../IMG/IMG_2_4.png
+[IMG_2_5]:../IMG/IMG_2_5.png
+[IMG_2_6]:../IMG/IMG_2_6.png
+[IMG_2_7]:../IMG/IMG_2_7.png
