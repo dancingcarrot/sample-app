@@ -39,14 +39,17 @@
 
 <br>
 - Namespace 생성 페이지에서 Limit Ranges를 선택해 cp-medium-limitrange 를 선택하고 선택 완료 버튼을 누른다.
+
   ![IMG_1_4]
 
 <br>
 - Namespace, Resource Quotas, Limit Ranges가 모두 설정이 되었는지 확인 후 저장 버튼을 누른다.
+
   ![IMG_1_5]
 
   <br>
 - Namespace list 목록에 자신이 생성한 Namespace가 생성되었는지 확인한다.
+
   ![IMG_1_6]
 
 <br>
@@ -98,6 +101,7 @@
 
 <br>
 - Redis-follower deployment가 올라갔는지 확인한다.
+
   ![IMG_2_10]
 <br>
 #### <div id='1-2-2-1'/> 1.2.2.1. Redis-follower service 생성
@@ -107,9 +111,11 @@
 
 <br>
 - Yaml 작성 박스에 Redis-follower service yaml을 작성한 후 저장 버튼을 클릭한다.
+
   ![IMG_2_12]
 <br>
 - 화면에서 Redis-follower service가 잘 올라갔는지 확인한다.
+- 
   ![IMG_2_13]
 
 <br>
