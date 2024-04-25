@@ -3,8 +3,13 @@
 1. [Redis deployment 생성] (#1)
    * [1.1 Namespace 생성 ](#1-1)
    * [1.2 Redis 생성 ](#1-2)
-   * [1.2.1 Redis deployment 생성](#1-2-1)
-   * [1.2.2 Redis service 생성](#1-2-1)
+   * [1.2.1 Redis-leader 생성 ](#1-2-1)
+   * [1.2.1.1 Redis-leader deployment 생성 ](#1-2-1-1)
+   * [1.2.1.2 Redis-leader service 생성 ](#1-2-1-2)
+   * [1.2.2 Redis-follower 생성 ](#1-2-2)
+   * [1.2.2.1 Redis-follower deployment 생성 ](#1-2-2-1)
+   * [1.2.2.2 Redis-follower service 생성 ](#1-2-2-2)
+
 <br>
 
 # <div id='1'/> 1. Redis를 사용한 PHP 방명록 애플리케이션 배포하기
@@ -102,6 +107,12 @@
 <br>
 - 화면에서 Redis-follower service가 잘 올라갔는지 확인한다.
   ![IMG_2_13]
+
+<br>
+
+## <div id='1-3'/> 1.3. 방명록 프론트엔드 생성
+#### <div id='1-3-1'/> 1.3.1. frontend 생성
+
 ---
 [IMG_1_1]:../IMG/IMG_1_1.png
 [IMG_1_2]:../IMG/IMG_1_2.png
