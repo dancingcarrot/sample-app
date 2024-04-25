@@ -70,13 +70,38 @@
 
 - Yaml 작성 박스에 Redis service yaml을 작성한 후 저장 버튼을 누른다.
   ![IMG_2_6]
+  
+<br>
 
 - 생성한 서비스가 잘 올라갔는지 확인한다.
   ![IMG_2_7]
+  
+<br>
 
 ### <div id='1-2-2'/> 1.2.2. Redis-follower 생성
-#### <div id='1-2-2-1'/> 1.2.2.1. Redis-leader deployment 생성
+#### <div id='1-2-2-1'/> 1.2.2.1. Redis-follower deployment 생성
+- Workloads 메뉴의 Deployment 클릭한 후 선택 생성 버튼을 누른다.
+  ![IMG_2_8]
+<br>
+  
+- Yaml 작성 박스에 Redis-follower deploymnet yaml을 작성한 후 저장 버튼을 누른다.
+  ![IMG_2_9]
 
+<br>
+- Redis-follower deployment가 올라갔는지 확인한다.
+  ![IMG_2_10]
+<br>
+#### <div id='1-2-2-1'/> 1.2.2.1. Redis-follower service 생성
+
+- Services 메뉴의 Services를 클릭한 후 생성 버튼을 클릭한다.
+  ![IMG_2_11]
+
+<br>
+- Yaml 작성 박스에 Redis-follower service yaml을 작성한 후 저장 버튼을 클릭한다.
+  ![IMG_2_12]
+<br>
+- 화면에서 Redis-follower service가 잘 올라갔는지 확인한다.
+  ![IMG_2_13]
 ---
 [IMG_1_1]:../IMG/IMG_1_1.png
 [IMG_1_2]:../IMG/IMG_1_2.png
@@ -91,3 +116,9 @@
 [IMG_2_5]:../IMG/IMG_2_5.png
 [IMG_2_6]:../IMG/IMG_2_6.png
 [IMG_2_7]:../IMG/IMG_2_7.png
+[IMG_2_8]:../IMG/IMG_2_8.png
+[IMG_2_9]:../IMG/IMG_2_9.png
+[IMG_2_10]:../IMG/IMG_2_10.png
+[IMG_2_11]:../IMG/IMG_2_11.png
+[IMG_2_12]:../IMG/IMG_2_12.png
+[IMG_2_13]:../IMG/IMG_2_13.png
