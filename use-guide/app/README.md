@@ -111,8 +111,30 @@
 <br>
 
 ## <div id='1-3'/> 1.3. 방명록 프론트엔드 생성
-#### <div id='1-3-1'/> 1.3.1. frontend 생성
+#### <div id='1-3-1'/> 1.3.1. frontend deployment 생성
 
+- Workloads 메뉴의 Deployment 클릭한 후 선택 생성 버튼을 누른다.
+  ![IMG_3_1]
+<br>
+
+- Yaml 작성 박스에 frontend deployment yaml을 작성하고 저장버튼을 클릭한다.
+  ![IMG_3_2]
+  <br>
+- 화면에서 frontend deployment가 잘 올라갔는지 확인한다.
+  ![IMG_3_3]
+  <br>
+
+#### <div id='1-3-2'/> 1.3.2. frontend service 생성
+
+- Services 메뉴의 Services를 선택한 후 생성 버튼을 클릭한다.
+  ![IMG_3_4]
+<br>
+
+- Yaml 작성 박스에 frontend service yaml을 작성하고 확인 버튼을 클릭한다.
+  ![IMG_3_5]
+
+- 화면에서 서비스가 등록된 것을 확인한다.
+  ![IMG_3_6]
 ---
 [IMG_1_1]:../IMG/IMG_1_1.png
 [IMG_1_2]:../IMG/IMG_1_2.png
@@ -132,4 +154,9 @@
 [IMG_2_10]:../IMG/IMG_2_10.png
 [IMG_2_11]:../IMG/IMG_2_11.png
 [IMG_2_12]:../IMG/IMG_2_12.png
-[IMG_2_13]:../IMG/IMG_2_13.png
+[IMG_3_1]:../IMG/IMG_3_1.png
+[IMG_3_2]:../IMG/IMG_3_2.png
+[IMG_3_3]:../IMG/IMG_3_3.png
+[IMG_3_4]:../IMG/IMG_3_4.png
+[IMG_3_5]:../IMG/IMG_3_5.png
+[IMG_3_6]:../IMG/IMG_3_6.png
