@@ -67,7 +67,7 @@
 
 <br>
 
-- 생성 버튼을 클릭 후 Yaml 작성박스에 Redis deployment를 생성하는 yaml을 작성하고 저장 버튼을 클릭한다.
+- 생성 버튼을 클릭 후 Yaml 작성박스에 Redis-leader deployment를 생성하는 yaml을 작성하고 저장 버튼을 클릭한다.
   ![IMG_2_3]
 
 <br>
@@ -83,7 +83,7 @@
 
 <br>
 
-- Yaml 작성 박스에 redis service yaml을 작성한 후 저장 버튼을 클릭한다.
+- Yaml 작성 박스에 redis-leader service yaml을 작성한 후 저장 버튼을 클릭한다.
   ![IMG_2_6]
   
 <br>
