@@ -13,6 +13,10 @@
    * [1.3.1. frontend deployment 생성](#1-3-1)
    * [1.3.1. frontend service 생성](#1-3-2)
    * [1.4 확인하기](#1-4)
+   * [1.5 삭제하기](#1-5)
+   * [1.5.1 Namespace 삭제로 전체 삭제하기](#1-5-1)
+   * [1.5.2 Deployment 삭제하기](#1-5-2)
+   * [1.5.3 Service 삭제하기](#1-5-3)
      
 
 <br>
@@ -211,7 +215,7 @@
  
 <br>
 
-#### <div id='1-5-2'/> 1.5.2. Service 삭제하기
+#### <div id='1-5-3'/> 1.5.3. Service 삭제하기
 - Services 메뉴에서 Services를 선택해 생성했던 service명을 클릭한다.
   ![IMG_6_1]
 
