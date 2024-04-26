@@ -182,6 +182,8 @@
 
 <br>
 ---
+<br>
+
 [IMG_1_1]:../IMG/IMG_1_1.png
 [IMG_1_2]:../IMG/IMG_1_2.png
 [IMG_1_3]:../IMG/IMG_1_3.png
