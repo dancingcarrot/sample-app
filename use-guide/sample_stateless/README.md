@@ -80,6 +80,7 @@ spec:
         ports:
         - containerPort: 6379
 ```
+<br>
 
 - redis-leader deployment가 생성되었는지 확인한다.
   ![IMG_2_4]
@@ -94,6 +95,8 @@ spec:
 
 - Yaml 작성 박스에 redis-leader service yaml을 작성한 후 저장 버튼을 클릭한다.
   ![IMG_2_6]
+
+<br>
 
 #### Redis-leader Service 
 
@@ -134,6 +137,8 @@ spec:
   
 - Yaml 작성 박스에 Redis-follower deploymnet yaml을 작성한 후 저장 버튼을 클릭한다.
   ![IMG_2_9]
+
+  <br>
   
 #### Redis-follower deployment 
 
@@ -189,6 +194,8 @@ spec:
 - Yaml 작성 박스에 Redis-follower service yaml을 작성한 후 저장 버튼을 클릭한다.
   ![IMG_2_12]
 
+<br>
+
 #### Redis-follower service 
 
 ```bash
@@ -229,6 +236,8 @@ spec:
 
 - Yaml 작성 박스에 frontend deployment yaml을 작성하고 저장버튼을 클릭한다.
   ![IMG_3_2]
+
+<br>
 
 #### frontend deployment 
 
@@ -281,6 +290,8 @@ spec:
 
 - Yaml 작성 박스에 frontend service yaml을 작성하고 확인 버튼을 클릭한다.
   ![IMG_3_5]
+
+  <br>
   
 #### Redis-leader service 
 
@@ -362,6 +373,8 @@ spec:
 - List에서 redis-leader deployment가 삭제되었는지 확인한다.
 ![IMG_10_5]
 
+<br>
+
 ### <div id='2-2'/> 2.2. Redis-follower 삭제하기
 #### <div id='2-2-1'/> 2.2.1. Redis-follower Service 삭제하기
 
@@ -385,14 +398,19 @@ spec:
 -  Workloads메뉴에서 Deployment를 선택한 후 redis-follower를 클릭한다.
   ![IMG_12_1]
 
+<br>
+
 - 화면 하단의 삭제 버튼을 클릭한다.
   ![IMG_12_2]
   ![IMG_12_3]
   ![IMG_12_4]
 
+<br>
+
 - List에서 redis-follower deployment가 삭제되었는지 확인한다.
   ![IMG_12_5]
 
+<br>
 
 ### <div id='2-3'/> 2.3. frontend 삭제하기
 #### <div id='2-3-1'/> 2.3.1. frontend Service 삭제하기
@@ -426,7 +444,7 @@ spec:
 - List에서 frontend deployment가 삭제되었는지 확인한다.
   ![IMG_14_5]
 
-
+<br>
 
 ---
 
