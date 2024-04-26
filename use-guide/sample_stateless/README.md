@@ -45,6 +45,8 @@
   
 <br>
 
+#### Redis-leader deployment 
+
 ``` bash
 # Redis-leader deployment
 
@@ -93,6 +95,8 @@ spec:
 - Yaml 작성 박스에 redis-leader service yaml을 작성한 후 저장 버튼을 클릭한다.
   ![IMG_2_6]
 
+#### Redis-leader Service 
+
 ```bash
 # Redis-leader service
 
@@ -130,6 +134,8 @@ spec:
   
 - Yaml 작성 박스에 Redis-follower deploymnet yaml을 작성한 후 저장 버튼을 클릭한다.
   ![IMG_2_9]
+  
+#### Redis-follower deployment 
 
 ```bash
 # Redis-follower deployment
@@ -183,6 +189,8 @@ spec:
 - Yaml 작성 박스에 Redis-follower service yaml을 작성한 후 저장 버튼을 클릭한다.
   ![IMG_2_12]
 
+#### Redis-follower service 
+
 ```bash
 # Redis-follower service
 
@@ -221,6 +229,8 @@ spec:
 
 - Yaml 작성 박스에 frontend deployment yaml을 작성하고 저장버튼을 클릭한다.
   ![IMG_3_2]
+
+#### frontend deployment 
 
 ```bash
 # frontend deployment
@@ -271,6 +281,8 @@ spec:
 
 - Yaml 작성 박스에 frontend service yaml을 작성하고 확인 버튼을 클릭한다.
   ![IMG_3_5]
+  
+#### Redis-leader service 
 
 ```bash
 # frontend service
@@ -451,7 +463,6 @@ spec:
 [IMG_4_5]:../images/sample_stateless/IMG_4_5.png
 [IMG_8_1]:../images/sample_stateless/IMG_8_1.png
 [IMG_8_2]:../images/sample_stateless/IMG_8_2.png
-[IMG_14_5]:../images/sample_stateless/IMG_14_5.png
 [IMG_8_3]:../images/sample_stateless/IMG_8_3.png
 [IMG_6_1]:../images/sample_stateless/IMG_6_1.png
 [IMG_6_2]:../images/sample_stateless/IMG_6_2.png
