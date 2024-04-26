@@ -314,7 +314,6 @@ metadata:
 spec:
   type: NodePort
   ports:
-    # the port that this service should serve on
   - port: 80
   selector:
     app: guestbook
@@ -377,12 +376,14 @@ spec:
 
 <br>
 - 화면 하단의 삭제 버튼을 클릭하여 redis-leader deployment를 삭제한다.
+
 ![IMG_10_2]
 ![IMG_10_3]
 ![IMG_10_4]
 
 <br>
 - List에서 redis-leader deployment가 삭제되었는지 확인한다.
+
 ![IMG_10_5]
 
 <br>
