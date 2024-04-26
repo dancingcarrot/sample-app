@@ -123,6 +123,7 @@
 <br>
 
 - 화면에서 Redis-follower service가 잘 올라갔는지 확인한다.
+- 
   ![IMG_2_13]
 
 <br>
