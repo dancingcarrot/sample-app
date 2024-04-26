@@ -36,11 +36,13 @@
 #### <div id='1-1-1-1'/> 1..1.1. Redis-leader deployment 생성
 
 - Workloads 메뉴의 Deployment 클릭한 후 생성 버튼을 클릭한다.
+<br>
   ![IMG_2_2]
 
 <br>
 
 - Yaml 작성박스에 하단의 Redis-leader deployment yaml을 입력하고 저장 버튼을 클릭한다.
+  <br>
   ![IMG_2_3]
   
 <br>
@@ -83,17 +85,20 @@ spec:
 <br>
 
 - redis-leader deployment가 생성되었는지 확인한다.
+  <br>
   ![IMG_2_4]
 
 <br>
 
 #### <div id='1-1-1-2'/> 1.1.1.2. Redis-leader service 생성
 - Services 메뉴의 Services를 클릭한 후 생성 버튼을 클릭한다.
+  <br>
   ![IMG_2_5]
 
 <br>
 
 - Yaml 작성박스에 하단의 Redis-leader service yaml을 입력하고 저장 버튼을 클릭한다.
+  <br>
   ![IMG_2_6]
 
 <br>
@@ -124,6 +129,7 @@ spec:
 <br>
 
 - 서비스가 생성되었는지 확인한다.
+  <br>
   ![IMG_2_7]
   
 <br>
@@ -131,11 +137,13 @@ spec:
 ### <div id='1-1-2'/> 1.1.2. Redis-follower 생성
 #### <div id='1-1-2-1'/> 1.1.2.1. Redis-follower deployment 생성
 - Workloads 메뉴의 Deployment를 클릭한 후 생성 버튼을 클릭한다.
+  <br>
   ![IMG_2_8]
   
 <br>
   
 - Yaml 작성박스에 하단의 Redis-follower deployment yaml을 입력하고 저장 버튼을 클릭한다.
+  <br>
   ![IMG_2_9]
 
   <br>
@@ -180,6 +188,7 @@ spec:
 
 
 - Redis-follower deployment가 생성되었는지 확인한다.
+  <br>
   ![IMG_2_10]
   
 <br>
@@ -187,11 +196,13 @@ spec:
 #### <div id='1-1-2-2'/> 1.1.2.2. Redis-follower service 생성
 
 - Services 메뉴의 Services를 클릭한 후 생성 버튼을 클릭한다.
+  <br>
   ![IMG_2_11]
 
 <br>
 
 - Yaml 작성박스에 하단의 Redis-follower service yaml을 입력하고 저장 버튼을 클릭한다.
+  <br>
   ![IMG_2_12]
 
 <br>
@@ -222,6 +233,7 @@ spec:
 <br>
 
 - 화면에서 Redis-follower service가 생성되었는지 확인한다.
+  <br>
   ![IMG_2_13]
 
 <br>
@@ -230,11 +242,13 @@ spec:
 #### <div id='1-2-1'/> 1.2.1. frontend deployment 생성
 
 - Workloads 메뉴의 Deployment 클릭한 후 생성 버튼을 클릭한다.
+  <br>
   ![IMG_3_1]
   
 <br>
 
 - Yaml 작성박스에 하단의 frontend deployment yaml을 입력하고 저장 버튼을 클릭한다.
+  <br>
   ![IMG_3_2]
 
 <br>
@@ -276,6 +290,7 @@ spec:
   <br>
   
 - 화면에서 frontend deployment가 생성되었는지 확인한다.
+  <br>
   ![IMG_3_3]
   
   <br>
@@ -284,11 +299,13 @@ spec:
 #### <div id='1-2-2'/> 1.2.2. frontend service 생성
 
 - Services 메뉴의 Services를 선택한 후 생성 버튼을 클릭한다.
+  <br>
   ![IMG_3_4]
   
 <br>
 
 - Yaml 작성박스에 하단의 frontend service yaml을 입력하고 저장 버튼을 클릭한다.
+  <br>
   ![IMG_3_5]
 
   <br>
@@ -317,6 +334,7 @@ spec:
 <br>
 
 - 화면에서 서비스가 등록된 것을 확인한다.
+  <br>
   ![IMG_3_6]
 
 <br>
@@ -325,6 +343,7 @@ spec:
 
   
 - Services 메뉴의 Services에서 frontend 서비스의 port를 확인한다.
+  <br>
   ![IMG_4_3]
 
 <br>
@@ -335,6 +354,7 @@ spec:
 <br>
   
 - 동일한 화면이 나타나는지 확인한다.
+  <br>
   ![IMG_4_5]
 
 <br>
@@ -345,16 +365,19 @@ spec:
 #### <div id='2-1-1'/> 2.1.1. Redis-leader Service 삭제하기
 
 - Services메뉴에서 Services를 선택한 후 redis-leader를 클릭한다.
+  <br>
   ![IMG_9_1]
   
   <br>
 - 화면 하단의 삭제 버튼을 클릭하여 redis-leader service를 삭제한다.
+  <br>
   ![IMG_9_2]
   ![IMG_9_3]
   ![IMG_9_4]
 
   <br>
 - List에서 redis-leader service가 삭제되었는지 확인한다.
+  <br>
   ![IMG_9_5]
 <br>
 
@@ -379,10 +402,12 @@ spec:
 #### <div id='2-2-1'/> 2.2.1. Redis-follower Service 삭제하기
 
 - Services메뉴에서 Services를 선택한 후 redis-follower를 클릭한다.
+  <br>
   ![IMG_11_1]
   <br>
 
 - 화면 하단의 삭제 버튼을 클릭하여 redis-follower service를 삭제한다.
+  <br>
   ![IMG_11_2]
   ![IMG_11_3]
   ![IMG_11_4]
@@ -396,11 +421,13 @@ spec:
 #### <div id='2-2-2'/> 2.2.2. Redis-follower Deployment 삭제하기
 
 -  Workloads메뉴에서 Deployment를 선택한 후 redis-follower를 클릭한다.
+   <br>
   ![IMG_12_1]
 
 <br>
 
 - 화면 하단의 삭제 버튼을 클릭하여 redis-follower deployment를 삭제한다.
+  <br>
   ![IMG_12_2]
   ![IMG_12_3]
   ![IMG_12_4]
@@ -408,6 +435,7 @@ spec:
 <br>
 
 - List에서 redis-follower deployment가 삭제되었는지 확인한다.
+  <br>
   ![IMG_12_5]
 
 <br>
@@ -416,16 +444,19 @@ spec:
 #### <div id='2-3-1'/> 2.3.1. frontend Service 삭제하기
 
 - Services메뉴에서 Services를 선택한 후 frontend를 클릭한다.
+  <br>
   ![IMG_13_1]
 <br>
 
 - 화면 하단의 삭제 버튼을 클릭하여 frontednd service를 삭제한다.
+  <br>
   ![IMG_13_2]
   ![IMG_13_3]
   ![IMG_13_4]
 <br>
 
 - List에서 frontend servcie가 삭제되었는지 확인한다.
+  <br>
   ![IMG_13_5]
   <br>
 
@@ -433,15 +464,18 @@ spec:
 
 -  Workloads메뉴에서 Deployment를 선택한 후 frontend를 클릭한다.
   ![IMG_14_1]
+  
   <br>
 
 - 화면 하단의 삭제 버튼을 클릭하여 frontednd deployment를 삭제한다.
+  <br>
   ![IMG_14_2]
   ![IMG_14_3]
   ![IMG_14_4]
 <br>
 
 - List에서 frontend deployment가 삭제되었는지 확인한다.
+  <br>
   ![IMG_14_5]
 
 <br>
