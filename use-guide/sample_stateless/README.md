@@ -36,13 +36,11 @@
 #### <div id='1-1-1-1'/> 1..1.1. Redis-leader deployment 생성
 
 - Workloads 메뉴의 Deployment 클릭한 후 생성 버튼을 클릭한다.
-<br>
   ![IMG_2_2]
 
 <br>
 
 - Yaml 작성박스에 하단의 Redis-leader deployment yaml을 입력하고 저장 버튼을 클릭한다.
-  <br>
   ![IMG_2_3]
   
 <br>
@@ -85,20 +83,17 @@ spec:
 <br>
 
 - redis-leader deployment가 생성되었는지 확인한다.
-  <br>
   ![IMG_2_4]
 
 <br>
 
 #### <div id='1-1-1-2'/> 1.1.1.2. Redis-leader service 생성
 - Services 메뉴의 Services를 클릭한 후 생성 버튼을 클릭한다.
-  <br>
   ![IMG_2_5]
 
 <br>
 
 - Yaml 작성박스에 하단의 Redis-leader service yaml을 입력하고 저장 버튼을 클릭한다.
-  <br>
   ![IMG_2_6]
 
 <br>
@@ -137,13 +132,11 @@ spec:
 ### <div id='1-1-2'/> 1.1.2. Redis-follower 생성
 #### <div id='1-1-2-1'/> 1.1.2.1. Redis-follower deployment 생성
 - Workloads 메뉴의 Deployment를 클릭한 후 생성 버튼을 클릭한다.
-  <br>
   ![IMG_2_8]
   
 <br>
   
 - Yaml 작성박스에 하단의 Redis-follower deployment yaml을 입력하고 저장 버튼을 클릭한다.
-  <br>
   ![IMG_2_9]
 
   <br>
@@ -196,13 +189,11 @@ spec:
 #### <div id='1-1-2-2'/> 1.1.2.2. Redis-follower service 생성
 
 - Services 메뉴의 Services를 클릭한 후 생성 버튼을 클릭한다.
-  <br>
   ![IMG_2_11]
 
 <br>
 
 - Yaml 작성박스에 하단의 Redis-follower service yaml을 입력하고 저장 버튼을 클릭한다.
-  <br>
   ![IMG_2_12]
 
 <br>
@@ -233,7 +224,6 @@ spec:
 <br>
 
 - 화면에서 Redis-follower service가 생성되었는지 확인한다.
-  <br>
   ![IMG_2_13]
 
 <br>
@@ -242,7 +232,6 @@ spec:
 #### <div id='1-2-1'/> 1.2.1. frontend deployment 생성
 
 - Workloads 메뉴의 Deployment 클릭한 후 생성 버튼을 클릭한다.
-  <br>
   ![IMG_3_1]
   
 <br>
