@@ -13,10 +13,10 @@
    * [1.3.1. frontend deployment 생성](#1-3-1)
    * [1.3.1. frontend service 생성](#1-3-2)
    * [1.4 확인하기](#1-4)
-   * [1.5 삭제하기](#1-5)
-   * [1.5.1 Namespace 삭제로 전체 삭제하기](#1-5-1)
-   * [1.5.2 Deployment 삭제하기](#1-5-2)
-   * [1.5.3 Service 삭제하기](#1-5-3)
+2. [삭제하기](#2)
+   * [2.1 Namespace 삭제로 전체 삭제하기](#2-1)
+   * [2.2. Deployment 삭제하기](#2-2)
+   * [2.3. Service 삭제하기](#2-3)
      
 
 <br>
@@ -188,8 +188,8 @@
 <br>
 
 
-## <div id='1-5'/> 1.5. 삭제하기
-#### <div id='1-5-1'/> 1.5.1. Namespace 삭제로 전체 삭제하기
+# <div id='2'/> 2. 삭제하기
+#### <div id='2-1'/> 2.1. Namespace 삭제로 전체 삭제하기
 
 - Clusters에서 Namespace을 클릭하고 생성했던 Namespace를 클릭한다.
   
@@ -204,7 +204,7 @@
   
 <br>
 
-#### <div id='1-5-2'/> 1.5.2. Deployment 삭제하기
+#### <div id='2-2'/> 2.2. Deployment 삭제하기
 
 - Workloads 메뉴에서 Deployment를 선택하고 생성했던 deployment명을 클릭한다.
   ![IMG_7_1]
@@ -217,7 +217,7 @@
  
 <br>
 
-#### <div id='1-5-3'/> 1.5.3. Service 삭제하기
+#### <div id='2-3'/> 2.3. Service 삭제하기
 - Services 메뉴에서 Services를 선택해 생성했던 service명을 클릭한다.
   ![IMG_6_1]
 
