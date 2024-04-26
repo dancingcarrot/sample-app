@@ -123,7 +123,6 @@
 <br>
 
 - 화면에서 Redis-follower service가 잘 올라갔는지 확인한다.
-- 
   ![IMG_2_13]
 
 <br>
@@ -167,7 +166,7 @@
 ## <div id='1-4'/> 1.4. 확인하기
 
   
-- Services 메뉴의 Services에서 frontend 서비스의 port를 확인해준다.
+- Services 메뉴의 Services에서 frontend 서비스의 port를 확인한다.
   ![IMG_4_3]
 
 <br>
