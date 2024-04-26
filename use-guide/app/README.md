@@ -67,23 +67,23 @@
 
 <br>
 
-- 생성 화면을 누른 후 Yaml 작성박스에 Redis deployment를 생성하는 yaml을 작성하고 저장 버튼을 클릭한다.
+- 생성 버을 클릭 후 Yaml 작성박스에 Redis deployment를 생성하는 yaml을 작성하고 저장 버튼을 클릭한다.
   ![IMG_2_3]
 
 <br>
 
-- Redis deployment가 생성되었는지 확인한다.
+- redis-leader deployment가 생성되었는지 확인한다.
   ![IMG_2_4]
 
 <br>
 
-#### <div id='1-2-1-2'/> 1.2.1.2. Redis service 생성
+#### <div id='1-2-1-2'/> 1.2.1.2. Redis-leader service 생성
 - Services 메뉴의 Services를 클릭한 후 생성 버튼을 클릭한다.
   ![IMG_2_5]
 
 <br>
 
-- Yaml 작성 박스에 Redis service yaml을 작성한 후 저장 버튼을 클릭한다.
+- Yaml 작성 박스에 redis service yaml을 작성한 후 저장 버튼을 클릭한다.
   ![IMG_2_6]
   
 <br>
