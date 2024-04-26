@@ -13,7 +13,7 @@
    * [1.3.1. frontend deployment 생성](#1-3-1)
    * [1.3.1. frontend service 생성](#1-3-2)
    * [1.4 확인하기](#1-4)
-2. [삭제하기](#2)
+2. [삭제하기(참고)](#2)
    * [2.1 Namespace 삭제로 전체 삭제하기](#2-1)
    * [2.2. Deployment 삭제하기](#2-2)
    * [2.3. Service 삭제하기](#2-3)
@@ -188,7 +188,7 @@
 <br>
 
 
-# <div id='2'/> 2. 삭제하기
+# <div id='2'/> 2. 삭제하기(참고)
 #### <div id='2-1'/> 2.1. Namespace 삭제로 전체 삭제하기
 
 - Clusters에서 Namespace을 클릭하고 생성했던 Namespace를 클릭한다.
