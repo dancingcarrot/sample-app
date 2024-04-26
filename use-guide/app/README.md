@@ -29,11 +29,12 @@
 ## <div id='1-1'/> 1.1. Namespace 생성
 #### <div id='1-1-1'/> 1.1.1. Namespace 생성
 - Clusters 메뉴의 Namespaces를 클릭하여 Namespace 목록 페이지로 이동한다.
+- Namespace 목록에서 생성 버튼을 클릭하여 Namespace 생성 페이지로 이동한다.
   ![IMG_1_1]
 
 <br>
 
-- Namespace 목록에서 생성 버튼을 클릭하여 Namespace 생성 페이지로 이동한다.
+
 - Name 작성 박스에 지정할 Namespace명을 입력한다.
   ![IMG_1_2]
 
