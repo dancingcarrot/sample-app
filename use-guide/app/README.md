@@ -12,6 +12,7 @@
    * [1.3. 방명록 프론트엔드 생성](#1-3)
    * [1.3.1. frontend deployment 생성](#1-3-1)
    * [1.3.1. frontend service 생성](#1-3-2)
+   * [1.4 확인하기](#1-4)
      
 
 <br>
@@ -180,6 +181,44 @@
   ![IMG_4_5]
 
 <br>
+
+
+## <div id='1-5'/> 1.5. 삭제하기
+#### <div id='1-5-1'/> 1.5.1. Namespace 삭제로 전체 삭제하기
+
+- Clusters에서 Namespace을 클릭하고 생성했던 Namespace를 클릭한다.
+  ![IMG_8_1]
+  ![IMG_8_2]
+  
+  <br>
+- 화면 하단에 삭제 버튼을 클릭하면 생성했던 service 및 deployment가 삭제된다.
+  ![IMG_8_3]
+  
+<br>
+
+#### <div id='1-5-2'/> 1.5.2. Deployment 삭제하기
+
+- Workloads 메뉴에서 Deployment를 선택하고 생성했던 deployment명을 클릭한다.
+  ![IMG_7_1]
+  
+<br>
+- 화면 하단에 삭제 버튼을 클릭하면 생성했던 deployment가 삭제된다.
+ ![IMG_7_2]
+ ![IMG_7_3]
+ 
+<br>
+
+#### <div id='1-5-2'/> 1.5.2. Service 삭제하기
+- Services 메뉴에서 Services를 선택해 생성했던 service명을 클릭한다.
+  ![IMG_6_1]
+
+  <br>
+  
+- 화면 하단에 삭제 버튼을 클릭하면 생성했던 service가 삭제된다.
+  ![IMG_6_2]
+  ![IMG_6_3]
+
+<br>
 ---
 <br>
 
@@ -212,4 +251,14 @@
 [IMG_4_3]:../IMG/IMG_4_3.png
 [IMG_5_1]:../IMG/IMG_5_1.png
 [IMG_4_5]:../IMG/IMG_4_5.png
+[IMG_8_3]:../IMG/IMG_8_1.png
+[IMG_8_3]:../IMG/IMG_8_2.png
+[IMG_8_3]:../IMG/IMG_8_3.png
+[IMG_6_1]:../IMG/IMG_6_1.png
+[IMG_6_2]:../IMG/IMG_6_2.png
+[IMG_6_3]:../IMG/IMG_6_3.png
+[IMG_7_1]:../IMG/IMG_7_1.png
+[IMG_7_2]:../IMG/IMG_7_2.png
+[IMG_7_3]:../IMG/IMG_7_3.png
+
 
