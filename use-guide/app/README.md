@@ -154,12 +154,21 @@
 
 ## <div id='1-4'/> 1.4. 확인하기
 
-- 노드의 ip를 확인한다.
-- frontend-service 의 nodeport ip를 확인한다.
-- 브라우저에 노드ip:nodeport ip 를 작성한다.
+  
+- Services 메뉴의 Services에서 frontend 서비스의 port를 확인해준다.
+  ![IMG_4_3]
+
+<br>
+  
+- 브라우저에 http://playpark-cp.k-paas.org:{service port} 를 작성한다.
+  ![IMG_5_1]
+
+<br>
+  
 - 동일한 화면이 나타나는지 확인한다.
   ![IMG_last]
 
+<br>
 ---
 [IMG_1_1]:../IMG/IMG_1_1.png
 [IMG_1_2]:../IMG/IMG_1_2.png
@@ -185,4 +194,8 @@
 [IMG_3_4]:../IMG/IMG_3_4.png
 [IMG_3_5]:../IMG/IMG_3_5.png
 [IMG_3_6]:../IMG/IMG_3_6.png
+[IMG_4_1]:../IMG/IMG_4_1.png
+[IMG_4_2]:../IMG/IMG_4_2.png
+[IMG_4_3]:../IMG/IMG_4_3.png
+[IMG_5_1]:../IMG/IMG_5_1.png
 [IMG_last]:../IMG/IMG_last.png
