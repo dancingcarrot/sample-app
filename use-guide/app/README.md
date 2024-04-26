@@ -129,7 +129,6 @@
 <br>
 
 - 화면에서 Redis-follower service가 생성되었는지 확인한다.
-- 
   ![IMG_2_13]
 
 <br>
@@ -250,6 +249,7 @@
 [IMG_2_10]:../IMG/IMG_2_10.png
 [IMG_2_11]:../IMG/IMG_2_11.png
 [IMG_2_12]:../IMG/IMG_2_12.png
+[IMG_2_13]:../IMG/IMG_2_13.png
 [IMG_3_1]:../IMG/IMG_3_1.png
 [IMG_3_2]:../IMG/IMG_3_2.png
 [IMG_3_3]:../IMG/IMG_3_3.png
