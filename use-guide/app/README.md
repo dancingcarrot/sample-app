@@ -187,11 +187,14 @@
 #### <div id='1-5-1'/> 1.5.1. Namespace 삭제로 전체 삭제하기
 
 - Clusters에서 Namespace을 클릭하고 생성했던 Namespace를 클릭한다.
+  
   ![IMG_8_1]
+  
   ![IMG_8_2]
   
   <br>
 - 화면 하단의 삭제 버튼을 클릭하면 생성했던 service 및 deployment가 삭제된다.
+- 
   ![IMG_8_3]
   
 <br>
@@ -251,8 +254,8 @@
 [IMG_4_3]:../IMG/IMG_4_3.png
 [IMG_5_1]:../IMG/IMG_5_1.png
 [IMG_4_5]:../IMG/IMG_4_5.png
-[IMG_8_3]:../IMG/IMG_8_1.png
-[IMG_8_3]:../IMG/IMG_8_2.png
+[IMG_8_1]:../IMG/IMG_8_1.png
+[IMG_8_2]:../IMG/IMG_8_2.png
 [IMG_8_3]:../IMG/IMG_8_3.png
 [IMG_6_1]:../IMG/IMG_6_1.png
 [IMG_6_2]:../IMG/IMG_6_2.png
