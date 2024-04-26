@@ -29,7 +29,7 @@
 <br>
 
 - Namespace 목록에서 생성 버튼을 클릭하여 Namespace 생성 페이지로 이동한다.
-- Name 작성 박스에 지정할 Namespace의 name을 입력한다.
+- Name 작성 박스에 지정할 Namespace명을 입력한다.
   ![IMG_1_2]
 
 <br>
