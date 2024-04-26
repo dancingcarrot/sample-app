@@ -45,7 +45,7 @@
 
 <br>
 
-- Namespace, Resource Quotas, Limit Ranges가 모두 설정이 되었는지 확인 후 저장 버튼을 클릭한다
+- Name, Resource Quotas, Limit Ranges가 모두 설정이 되었는지 확인 후 저장 버튼을 클릭한다
 
   ![IMG_1_5]
 
