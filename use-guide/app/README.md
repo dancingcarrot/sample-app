@@ -94,7 +94,7 @@
   
 <br>
 
-- 생성한 서비스가 올라갔는지 확인한다.
+- 서비스가 생성되었는지 확인한다.
   ![IMG_2_7]
   
 <br>
@@ -111,7 +111,7 @@
 
 <br>
 
-- Redis-follower deployment가 올라갔는지 확인한다.
+- Redis-follower deployment가 생성되었는지 확인한다.
   ![IMG_2_10]
   
 <br>
@@ -128,7 +128,7 @@
   
 <br>
 
-- 화면에서 Redis-follower service가 올라갔는지 확인한다.
+- 화면에서 Redis-follower service가 생성되었는지 확인한다.
   ![IMG_2_13]
 
 <br>
@@ -146,7 +146,7 @@
   
   <br>
   
-- 화면에서 frontend deployment가 올라갔는지 확인한다.
+- 화면에서 frontend deployment가 생성되었는지 확인한다.
   ![IMG_3_3]
   
   <br>
