@@ -40,7 +40,7 @@
 
 <br>
 
-- Yaml 작성박스에 Redis-leader deployment를 생성하는 yaml을 작성하고 저장 버튼을 클릭한다.
+- Yaml 작성박스에 하단의 Redis-leader deployment yaml을 입력하고 저장 버튼을 클릭한다.
   ![IMG_2_3]
   
 <br>
@@ -93,7 +93,7 @@ spec:
 
 <br>
 
-- Yaml 작성 박스에 redis-leader service yaml을 작성한 후 저장 버튼을 클릭한다.
+- Yaml 작성박스에 하단의 Redis-leader service yaml을 입력하고 저장 버튼을 클릭한다.
   ![IMG_2_6]
 
 <br>
@@ -135,7 +135,7 @@ spec:
   
 <br>
   
-- Yaml 작성 박스에 Redis-follower deploymnet yaml을 작성한 후 저장 버튼을 클릭한다.
+- Yaml 작성박스에 하단의 Redis-follower deployment yaml을 입력하고 저장 버튼을 클릭한다.
   ![IMG_2_9]
 
   <br>
@@ -191,7 +191,7 @@ spec:
 
 <br>
 
-- Yaml 작성 박스에 Redis-follower service yaml을 작성한 후 저장 버튼을 클릭한다.
+- Yaml 작성박스에 하단의 Redis-follower service yaml을 입력하고 저장 버튼을 클릭한다.
   ![IMG_2_12]
 
 <br>
@@ -234,7 +234,7 @@ spec:
   
 <br>
 
-- Yaml 작성 박스에 frontend deployment yaml을 작성하고 저장버튼을 클릭한다.
+- Yaml 작성박스에 하단의 frontend deployment yaml을 입력하고 저장 버튼을 클릭한다.
   ![IMG_3_2]
 
 <br>
@@ -288,12 +288,12 @@ spec:
   
 <br>
 
-- Yaml 작성 박스에 frontend service yaml을 작성하고 확인 버튼을 클릭한다.
+- Yaml 작성박스에 하단의 frontend service yaml을 입력하고 저장 버튼을 클릭한다.
   ![IMG_3_5]
 
   <br>
   
-#### Redis-leader service 
+#### frontend service 
 
 ```bash
 # frontend service
