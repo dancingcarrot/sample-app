@@ -34,20 +34,23 @@
 
 <br>
 
-- Namespace 생성 페이지에서 Resource Quotas를 선택해 cp-medium-resourcequota 를 선택하고 선택 완료 버튼을 누른다.
+- Namespace 생성 페이지에서 Resource Quotas를 선택해 cp-medium-resourcequota 를 선택하고 선택 완료 버튼을 클릭한다.
   ![IMG_1_3]
 
 <br>
-- Namespace 생성 페이지에서 Limit Ranges를 선택해 cp-medium-limitrange 를 선택하고 선택 완료 버튼을 누른다.
+
+- Namespace 생성 페이지에서 Limit Ranges를 선택해 cp-medium-limitrange 를 선택하고 선택 완료 버튼을 클릭한다.
 
   ![IMG_1_4]
 
 <br>
-- Namespace, Resource Quotas, Limit Ranges가 모두 설정이 되었는지 확인 후 저장 버튼을 누른다.
+
+- Namespace, Resource Quotas, Limit Ranges가 모두 설정이 되었는지 확인 후 저장 버튼을 클릭한다
 
   ![IMG_1_5]
 
   <br>
+
 - Namespace list 목록에 자신이 생성한 Namespace가 생성되었는지 확인한다.
 
   ![IMG_1_6]
@@ -64,7 +67,7 @@
 
 <br>
 
-- 생성 화면을 누른 후 Yaml 작성박스에 Redis deployment를 생성하는 yaml을 작성하고 저장 버튼을 누른다.
+- 생성 화면을 누른 후 Yaml 작성박스에 Redis deployment를 생성하는 yaml을 작성하고 저장 버튼을 클릭한다.
   ![IMG_2_3]
 
 <br>
@@ -75,12 +78,12 @@
 <br>
 
 #### <div id='1-2-1-2'/> 1.2.1.2. Redis service 생성
-- Services 메뉴의 Services를 클릭한 후 생성 버튼을 누른다.
+- Services 메뉴의 Services를 클릭한 후 생성 버튼을 클릭한다.
   ![IMG_2_5]
 
 <br>
 
-- Yaml 작성 박스에 Redis service yaml을 작성한 후 저장 버튼을 누른다.
+- Yaml 작성 박스에 Redis service yaml을 작성한 후 저장 버튼을 클릭한다.
   ![IMG_2_6]
   
 <br>
@@ -92,14 +95,15 @@
 
 ### <div id='1-2-2'/> 1.2.2. Redis-follower 생성
 #### <div id='1-2-2-1'/> 1.2.2.1. Redis-follower deployment 생성
-- Workloads 메뉴의 Deployment 클릭한 후 선택 생성 버튼을 누른다.
+- Workloads 메뉴의 Deployment 클릭한 후 선택 생성 버튼을 클릭한다.
   ![IMG_2_8]
 <br>
   
-- Yaml 작성 박스에 Redis-follower deploymnet yaml을 작성한 후 저장 버튼을 누른다.
+- Yaml 작성 박스에 Redis-follower deploymnet yaml을 작성한 후 저장 버튼을 클릭한다.
   ![IMG_2_9]
 
 <br>
+
 - Redis-follower deployment가 올라갔는지 확인한다.
 
   ![IMG_2_10]
@@ -115,7 +119,6 @@
   ![IMG_2_12]
 <br>
 - 화면에서 Redis-follower service가 잘 올라갔는지 확인한다.
-- 
   ![IMG_2_13]
 
 <br>
@@ -123,7 +126,7 @@
 ## <div id='1-3'/> 1.3. 방명록 프론트엔드 생성
 #### <div id='1-3-1'/> 1.3.1. frontend deployment 생성
 
-- Workloads 메뉴의 Deployment 클릭한 후 선택 생성 버튼을 누른다.
+- Workloads 메뉴의 Deployment 클릭한 후 선택 생성 버튼을 클릭한다.
   ![IMG_3_1]
 <br>
 
@@ -149,7 +152,7 @@
 ## <div id='1-4'/> 1.4. 확인하기
 
 - 노드의 ip를 확인한다.
-- frontedn-service 의 nodeport ip를 확인한다.
+- frontend-service 의 nodeport ip를 확인한다.
 - 브라우저에 노드ip:nodeport ip 를 작성한다.
 - 동일한 화면이 나타나는지 확인한다.
   ![IMG_last]
