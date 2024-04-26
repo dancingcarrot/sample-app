@@ -95,7 +95,7 @@
 
 ### <div id='1-2-2'/> 1.2.2. Redis-follower 생성
 #### <div id='1-2-2-1'/> 1.2.2.1. Redis-follower deployment 생성
-- Workloads 메뉴의 Deployment 클릭한 후 생성 버튼을 클릭한다.
+- Workloads 메뉴의 Deployment를 클릭한 후 생성 버튼을 클릭한다.
   ![IMG_2_8]
   
 <br>
@@ -123,7 +123,6 @@
 <br>
 
 - 화면에서 Redis-follower service가 잘 올라갔는지 확인한다.
-
   ![IMG_2_13]
 
 <br>
@@ -131,7 +130,7 @@
 ## <div id='1-3'/> 1.3. 방명록 프론트엔드 생성
 #### <div id='1-3-1'/> 1.3.1. frontend deployment 생성
 
-- Workloads 메뉴의 Deployment 클릭한 후 선택 생성 버튼을 클릭한다.
+- Workloads 메뉴의 Deployment 클릭한 후 생성 버튼을 클릭한다.
   ![IMG_3_1]
   
 <br>
