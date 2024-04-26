@@ -108,6 +108,7 @@
 
   ![IMG_2_10]
 <br>
+
 #### <div id='1-2-2-1'/> 1.2.2.1. Redis-follower service 생성
 
 - Services 메뉴의 Services를 클릭한 후 생성 버튼을 클릭한다.
