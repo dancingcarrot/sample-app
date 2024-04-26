@@ -42,8 +42,42 @@
 
 - Yaml 작성박스에 Redis-leader deployment를 생성하는 yaml을 작성하고 저장 버튼을 클릭한다.
   ![IMG_2_3]
-
+  
 <br>
+
+``` bash
+# Redis-leader deployment
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis-leader
+  labels:
+    app: redis
+    role: leader
+    tier: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: redis
+  template:
+    metadata:
+      labels:
+        app: redis
+        role: leader
+        tier: backend
+    spec:
+      containers:
+      - name: leader
+        image: "docker.io/redis:6.0.5"
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+        ports:
+        - containerPort: 6379
+```
 
 - redis-leader deployment가 생성되었는지 확인한다.
   ![IMG_2_4]
@@ -58,7 +92,28 @@
 
 - Yaml 작성 박스에 redis-leader service yaml을 작성한 후 저장 버튼을 클릭한다.
   ![IMG_2_6]
-  
+
+```bash
+# Redis-leader service
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-leader
+  labels:
+    app: redis
+    role: leader
+    tier: backend
+spec:
+  ports:
+  - port: 6379
+    targetPort: 6379
+  selector:
+    app: redis
+    role: leader
+    tier: backend
+```
+
 <br>
 
 - 서비스가 생성되었는지 확인한다.
@@ -76,7 +131,42 @@
 - Yaml 작성 박스에 Redis-follower deploymnet yaml을 작성한 후 저장 버튼을 클릭한다.
   ![IMG_2_9]
 
+```bash
+# Redis-follower deployment
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis-follower
+  labels:
+    app: redis
+    role: follower
+    tier: backend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: redis
+  template:
+    metadata:
+      labels:
+        app: redis
+        role: follower
+        tier: backend
+    spec:
+      containers:
+      - name: follower
+        image: gcr.io/google_samples/gb-redis-follower:v2
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+        ports:
+        - containerPort: 6379
+```
 <br>
+
+
 
 - Redis-follower deployment가 생성되었는지 확인한다.
   ![IMG_2_10]
@@ -92,6 +182,27 @@
 
 - Yaml 작성 박스에 Redis-follower service yaml을 작성한 후 저장 버튼을 클릭한다.
   ![IMG_2_12]
+
+```bash
+# Redis-follower service
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-follower
+  labels:
+    app: redis
+    role: follower
+    tier: backend
+spec:
+  ports:
+    # the port that this service should serve on
+  - port: 6379
+  selector:
+    app: redis
+    role: follower
+    tier: backend
+```
   
 <br>
 
@@ -110,7 +221,39 @@
 
 - Yaml 작성 박스에 frontend deployment yaml을 작성하고 저장버튼을 클릭한다.
   ![IMG_3_2]
-  
+
+```bash
+# frontend deployment
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+        app: guestbook
+        tier: frontend
+  template:
+    metadata:
+      labels:
+        app: guestbook
+        tier: frontend
+    spec:
+      containers:
+      - name: php-redis
+        image: corelab/gb-frontend:v5
+        env:
+        - name: GET_HOSTS_FROM
+          value: "dns"
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+        ports:
+        - containerPort: 80
+```
   <br>
   
 - 화면에서 frontend deployment가 생성되었는지 확인한다.
@@ -129,6 +272,25 @@
 - Yaml 작성 박스에 frontend service yaml을 작성하고 확인 버튼을 클릭한다.
   ![IMG_3_5]
 
+```bash
+# frontend service
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend
+  labels:
+    app: guestbook
+    tier: frontend
+spec:
+  type: NodePort
+  ports:
+    # the port that this service should serve on
+  - port: 80
+  selector:
+    app: guestbook
+    tier: frontend
+```
 <br>
 
 - 화면에서 서비스가 등록된 것을 확인한다.
