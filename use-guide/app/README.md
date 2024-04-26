@@ -172,7 +172,7 @@
 <br>
   
 - 브라우저에 http://{node public ip}:{service port} 를 작성한다.
-  ![IMG_5_1]
+
 
 <br>
   
