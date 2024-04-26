@@ -198,5 +198,5 @@
 [IMG_4_2]:../IMG/IMG_4_2.png
 [IMG_4_3]:../IMG/IMG_4_3.png
 [IMG_5_1]:../IMG/IMG_5_1.png
-[IMG_4_5]:../IMG/IMG_4_5.png
+[IMG_4_5]:./IMG/IMG_4_5.png
 
