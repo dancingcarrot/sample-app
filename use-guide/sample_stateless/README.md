@@ -48,7 +48,6 @@
 #### Redis-leader deployment 
 
 ``` bash
-# Redis-leader deployment
 
 apiVersion: apps/v1
 kind: Deployment
@@ -101,7 +100,6 @@ spec:
 #### Redis-leader Service 
 
 ```bash
-# Redis-leader service
 
 apiVersion: v1
 kind: Service
@@ -144,7 +142,6 @@ spec:
 #### Redis-follower deployment 
 
 ```bash
-# Redis-follower deployment
 
 apiVersion: apps/v1
 kind: Deployment
@@ -201,7 +198,6 @@ spec:
 #### Redis-follower service 
 
 ```bash
-# Redis-follower service
 
 apiVersion: v1
 kind: Service
@@ -245,7 +241,6 @@ spec:
 #### frontend deployment 
 
 ```bash
-# frontend deployment
 
 apiVersion: apps/v1
 kind: Deployment
@@ -302,7 +297,6 @@ spec:
 #### frontend service 
 
 ```bash
-# frontend service
 
 apiVersion: v1
 kind: Service
