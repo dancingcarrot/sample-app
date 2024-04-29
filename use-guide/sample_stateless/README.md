@@ -331,6 +331,7 @@ spec:
 <br>
   
 - 브라우저에 http://{node public ip}:{service port} 를 작성한다.
+  + playpark로 배포시 예시 ) http://playpark-cp.k-paas.org:30705/
 
 
 <br>
@@ -354,8 +355,7 @@ spec:
 - 화면 하단의 삭제 버튼을 클릭하여 redis-leader service를 삭제한다.
   <br>
   ![IMG_9_2]
-  ![IMG_9_3]
-  ![IMG_9_4]
+
 
   <br>
 - List에서 redis-leader service가 삭제되었는지 확인한다.
@@ -372,8 +372,7 @@ spec:
 - 화면 하단의 삭제 버튼을 클릭하여 redis-leader deployment를 삭제한다.
 
 ![IMG_10_2]
-![IMG_10_3]
-![IMG_10_4]
+
 
 <br>
 
@@ -394,8 +393,7 @@ spec:
 - 화면 하단의 삭제 버튼을 클릭하여 redis-follower service를 삭제한다.
   <br>
   ![IMG_11_2]
-  ![IMG_11_3]
-  ![IMG_11_4]
+
   <br>
 
 - List에서 redis-follower service가 삭제되었는지 확인한다.
@@ -414,8 +412,7 @@ spec:
 - 화면 하단의 삭제 버튼을 클릭하여 redis-follower deployment를 삭제한다.
   <br>
   ![IMG_12_2]
-  ![IMG_12_3]
-  ![IMG_12_4]
+
 
 <br>
 
@@ -436,8 +433,6 @@ spec:
 - 화면 하단의 삭제 버튼을 클릭하여 frontednd service를 삭제한다.
   <br>
   ![IMG_13_2]
-  ![IMG_13_3]
-  ![IMG_13_4]
 <br>
 
 - List에서 frontend servcie가 삭제되었는지 확인한다.
@@ -455,8 +450,7 @@ spec:
 - 화면 하단의 삭제 버튼을 클릭하여 frontednd deployment를 삭제한다.
   <br>
   ![IMG_14_2]
-  ![IMG_14_3]
-  ![IMG_14_4]
+
 <br>
 
 - List에서 frontend deployment가 삭제되었는지 확인한다.
