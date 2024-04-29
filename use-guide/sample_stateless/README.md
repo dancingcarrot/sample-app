@@ -447,7 +447,7 @@ spec:
   
   <br>
 
-- 화면 하단의 삭제 버튼을 클릭하여 frontednd deployment를 삭제한다.
+- 화면 하단의 삭제 버튼을 클릭하여 frontend deployment를 삭제한다.
   <br>
   ![IMG_14_2]
 
