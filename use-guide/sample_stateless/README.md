@@ -333,10 +333,8 @@ spec:
 <br>
   
 - 브라우저에 http://{node public ip}:{service port} 를 작성한다.
-  <br>
-  
-- playpark로 배포시 예시
-> http://playpark-cp.k-paas.org:30705/
+  + playpark로 배포시 예시
+  > http://playpark-cp.k-paas.org:30705/
 
 
 <br>
