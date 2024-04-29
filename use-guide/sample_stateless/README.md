@@ -12,6 +12,8 @@
    * [1.2.1. frontend deployment 생성](#1-2-1)
    * [1.2.1. frontend service 생성](#1-2-2)
    * [1.3 확인하기](#1-3)
+    <br>
+    
 2. [삭제하기(참고)](#2)
    * [2.1 Redis-leader 삭제하기](#2-1)
    * [2.1.1 Redis-leader Service 삭제하기](#2-1-1)
