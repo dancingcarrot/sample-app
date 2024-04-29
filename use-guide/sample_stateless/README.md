@@ -382,6 +382,7 @@ spec:
 ![IMG_10_4]
 
 <br>
+
 - List에서 redis-leader deployment가 삭제되었는지 확인한다.
 
 ![IMG_10_5]
